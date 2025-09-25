@@ -1,4 +1,4 @@
-import { Box } from '@chakra-ui/react';
+import { Box, Input } from '@chakra-ui/react';
 
 function App() {
   return (
@@ -60,7 +60,7 @@ function App() {
           h="100%"
           bg="blue.200"
         >
-          [   ___   ]
+          <Input placeholder="Write your task" variant="subtle" />
         </Box>
       </Box>
     </Box>
